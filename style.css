@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 144, 207);
+  padding: 10px 40px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links .btn {
+  background-color: #0066ff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.middle {
+  background-image: url('https://thumbs.dreamstime.com/b/png-cats-playing-each-other-transparent-background-ai-generated-378529927.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.middle-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.middle-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.middle-content .btn {
+  background-color: #0066ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Facts Section */
+.footer {
+  padding: 60px 80px;
+  background-color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.cat-image {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.footer-text h2 {
+  margin-bottom: 15px;
+}
+
+.footer-text p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.footer-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.7;
+}
